@@ -4,6 +4,8 @@ import useAnalyticsEventTracker from "./useAnalyticsEventTracker";
 
 // UA-230674282-1
 
+// changes 1
+
 import ReactGA from "react-ga";
 const TRACKING_ID = "UA-230674282-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
