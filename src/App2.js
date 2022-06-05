@@ -3,7 +3,7 @@ import "./App.css";
 
 import { Route, Switch, Link, useParams } from "react-router-dom";
 
-import gtag from "ga-gtag";
+// import gtag from "ga-gtag";
 
 import useAnalyticsEventTracker from "./useAnalyticsEventTracker";
 
@@ -157,7 +157,7 @@ const People = () => {
         {people.map((curr, i) => {
           return (
             <Link to={`/person/${curr}`} className="links">
-              <div onClick={edoti} key={i} className="person flex-centering">
+              <div key={i} className="person flex-centering">
                 {curr}
               </div>
             </Link>
